@@ -1,4 +1,4 @@
-import Header from "./assets/header";
+import Login,{Profile,User} from "./userComponent";
 
 function App() {
   return (
@@ -6,7 +6,9 @@ function App() {
 
       <h1>hyy</h1>
       <button>me hu button</button>
-      <Header />
+      <Profile />
+      <Login />
+      <User/>
     </>
   );
 }
